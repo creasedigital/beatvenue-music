@@ -1,5 +1,11 @@
+import ArtistPlaylistCover from '../components/ArtistPlaylistCover';
+
 const ArtistPlaylist = () => {
-	return <div>ArtistPlaylist</div>;
+	return (
+		<div>
+			<ArtistPlaylistCover />
+		</div>
+	);
 };
 
 export default ArtistPlaylist;

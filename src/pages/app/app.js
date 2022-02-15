@@ -1,5 +1,6 @@
 import './app.scss';
 import ArtistPage from '../../pages/ArtistPage';
+import ArtistPlaylist from '../../pages/ArtistPlaylist';
 
 function App() {
 	return (
@@ -35,7 +36,9 @@ function App() {
 				<main role='main' class='main bg-lime-300'>
 					<ArtistPage />
 				</main>
-				<aside class='right bg-orange-400'>Right</aside>
+				<aside class='right bg-orange-400'>
+					<ArtistPlaylist />
+				</aside>
 			</div>
 		</div>
 	);
