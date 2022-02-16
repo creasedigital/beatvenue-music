@@ -3,12 +3,10 @@ import ArtistSectionInfo from './ArtistSectionInfo';
 
 const ArtistSection = ({ title, more }) => {
 	return (
-		<div>
-			<h1>
-				{title} <span>{more}</span>
-			</h1>
+		<div className=''>
 			<ArtistSectionNav />
-			<ArtistSectionInfo />
+
+			<ArtistSectionInfo title={title} more={more} />
 		</div>
 	);
 };

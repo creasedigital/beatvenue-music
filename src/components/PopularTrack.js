@@ -1,36 +1,36 @@
 import PopularTrackList from './PopularTrackList';
 
 const PopularTrack = () => {
-	export const tracks = [
+	const tracks = [
 		{
-			url: '/public/2-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/2-min.jpg',
+			title: 'Lorem ipsum',
 		},
 		{
-			url: '/public/3-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/3-min.jpg',
+			title: 'Lorem ipsum',
 		},
 		{
-			url: '/public/4-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/4-min.jpg',
+			title: 'Lorem ipsum',
 		},
 		{
-			url: '/public/5-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/5-min.jpg',
+			title: 'Lorem ipsum',
 		},
 		{
-			url: '/public/6-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/6-min.jpg',
+			title: 'Lorem ipsum',
 		},
 		{
-			url: '/public/7-min.jpg',
-			title: 'Lorem ipsum dolor sit amet',
+			url: '/7-min.jpg',
+			title: 'Lorem ipsum',
 		},
 	];
 
 	return (
-		<div>
-			<h2 className='text-gray-100'>POPULAR TRACKS</h2>
+		<div className='pt-8 pl-8 bg-slate-900'>
+			<h2 className='text-gray-400'>POPULAR TRACKS</h2>
 			<PopularTrackList tracks={tracks} />
 		</div>
 	);

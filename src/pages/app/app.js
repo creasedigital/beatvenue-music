@@ -33,10 +33,13 @@ function App() {
 						</div>
 					</nav>
 				</aside>
-				<main role='main' class='main bg-lime-300'>
+				<main
+					role='main'
+					class='main bg-gradient-to-t from-slate-900 to-slate-800 '
+				>
 					<ArtistPage />
 				</main>
-				<aside class='right bg-orange-400'>
+				<aside class='right bg-slate-900'>
 					<ArtistPlaylist />
 				</aside>
 			</div>

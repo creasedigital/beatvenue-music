@@ -4693,11 +4693,6 @@
   "resolved" "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
   "version" "2.1.0"
 
-"iconsax@^0.0.1":
-  "integrity" "sha512-l9bDaIsNxyVlRnXwoM58oaLxQ8QnH7W5bXZNaQHoKoDsO1yFZ5J2ndQRArKq8vRy2p4EjOVhAeBWWySjQ26whQ=="
-  "resolved" "https://registry.npmmirror.com/iconsax/-/iconsax-0.0.1.tgz"
-  "version" "0.0.1"
-
 "iconv-lite@^0.6.3":
   "integrity" "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"

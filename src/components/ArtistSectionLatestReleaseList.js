@@ -1,5 +1,10 @@
 const ArtistSectionLatestReleaseList = () => {
-	return <div>ArtistSectionLatestReleaseList</div>;
+	return (
+		<div>
+			<p>Hello</p>
+			<p>Cool</p>
+		</div>
+	);
 };
 
 export default ArtistSectionLatestReleaseList;
