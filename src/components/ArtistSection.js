@@ -3,7 +3,7 @@ import ArtistSectionInfo from './ArtistSectionInfo';
 
 const ArtistSection = ({ title, more }) => {
 	return (
-		<div className=''>
+		<div className='p-8'>
 			<ArtistSectionNav />
 
 			<ArtistSectionInfo title={title} more={more} />

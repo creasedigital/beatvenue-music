@@ -24,3 +24,8 @@ body {
 .positionAbsoluteCenter{
   @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
+
+.artistSectionTab{
+  @apply text-white px-6 py-2 rounded;
+  background: rgba(255,255,255,0.05);
+}
