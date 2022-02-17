@@ -1,10 +1,14 @@
 import ArtistSectionLatestReleaseList from './ArtistSectionLatestReleaseList';
+import { tracks } from './PopularTrack';
 
 const ArtistSectionReleaseLatest = () => {
 	return (
-		<div>
-			<ArtistSectionLatestReleaseList />
-			<p>hello</p>
+		<div className='flex'>
+			{console.log(typeof tracks)}
+			{tracks.length &&
+				tracks.map((track, index) => (
+					<ArtistSectionLatestReleaseList track={track} index={index} />
+				))}
 		</div>
 	);
 };

@@ -1,6 +1,6 @@
 const ArtistSectionNav = () => {
 	return (
-		<div className=' flex justify-between mb-8'>
+		<div className=' flex justify-between mb-4'>
 			<ul className='flex space-x-8 pl-8 items-center text-gray-400'>
 				<li className='artistSectionTab'>Releases</li>
 				<li className=''>About</li>

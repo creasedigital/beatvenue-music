@@ -5,7 +5,6 @@ const ArtistSection = ({ title, more }) => {
 	return (
 		<div className='p-8'>
 			<ArtistSectionNav />
-
 			<ArtistSectionInfo title={title} more={more} />
 		</div>
 	);

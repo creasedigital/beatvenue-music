@@ -10,7 +10,7 @@ const ArtistPage = () => {
 				followNumbers='56 M'
 				following='FOLLOWING'
 			/>
-			<ArtistSection title='Welcome To The Artist Section' more='MORE' />
+			<ArtistSection title='Last Releases' more='MORE &gt;' />
 		</div>
 	);
 };
