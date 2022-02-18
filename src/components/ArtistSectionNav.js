@@ -2,7 +2,7 @@ const ArtistSectionNav = () => {
 	return (
 		<div className=' flex justify-between mb-4'>
 			<ul className='flex space-x-8 pl-8 items-center text-gray-400'>
-				<li className='artistSectionTab'>Releases</li>
+				<li className='artistSectionTab '>Releases</li>
 				<li className=''>About</li>
 				<li className=''>Events</li>
 				<li className=''>Similar</li>
