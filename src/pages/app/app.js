@@ -6,12 +6,12 @@ import SongPlaying from '../SongPlaying';
 function App() {
 	return (
 		<>
-			<div className='home mx-auto'>
+			<div className='home mx-auto relative'>
 				<main>
-					<SongPlaying className='z-50' />
+					<SongPlaying />
 				</main>
 				<div className='home__wrapper flex flex-row flex-wrap'>
-					<aside className='sidenav bg-zinc-900 h-screen text-white flex py-6 px-7'>
+					<aside className='sidenav bg-zinc-900 minh-screen text-white flex py-6 px-7'>
 						<nav class='sidenav__nav sticky'>
 							<div className='sidenav__playTitle flex flex-row justify-between'>
 								<div className='sidenav__playTitleBtn px-5'>Just Play</div>

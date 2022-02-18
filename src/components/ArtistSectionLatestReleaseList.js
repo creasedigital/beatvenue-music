@@ -1,8 +1,8 @@
 const ArtistSectionLatestReleaseList = ({ track, index }) => {
 	return (
 		<div>
-			<div className=' '>
-				<div className='w-32 h-32 flex'>
+			<div className='m-4 '>
+				<div className='w-32 h-32 flex '>
 					<img
 						src={track.url}
 						alt='Album Art'

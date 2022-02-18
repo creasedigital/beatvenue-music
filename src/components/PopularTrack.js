@@ -37,6 +37,18 @@ export const tracks = [
 		type: 'Single',
 		time: '03.56',
 	},
+	{
+		url: '/8-min.jpg',
+		title: 'Lorem ipsum',
+		type: 'Single',
+		time: '03.56',
+	},
+	{
+		url: '/1-min.jpg',
+		title: 'Lorem ipsum',
+		type: 'Single',
+		time: '03.56',
+	},
 ];
 
 const PopularTrack = () => {

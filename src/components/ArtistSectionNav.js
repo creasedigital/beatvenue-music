@@ -8,8 +8,8 @@ const ArtistSectionNav = () => {
 				<li className=''>Similar</li>
 			</ul>
 			<div className='flex space-x-4 items-center '>
-				<span className='text-lg'>&Xi;</span>
-				<span className='text-xl rotate-90'> &hellip;</span>
+				<span className='text-lg text-white'>&Xi;</span>
+				<span className='text-xl text-white rotate-90'> &hellip;</span>
 			</div>
 		</div>
 	);
