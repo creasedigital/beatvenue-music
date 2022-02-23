@@ -3,7 +3,7 @@ import { tracks } from './PopularTrack';
 
 const ArtistSectionReleaseLatest = () => {
 	return (
-		<div className='grid grid-cols-4 auto-cols-auto m-4'>
+		<div className='grid grid-cols-4 auto-cols-auto '>
 			{console.log(typeof tracks)}
 			{tracks.length &&
 				tracks.map((track, index) => (
